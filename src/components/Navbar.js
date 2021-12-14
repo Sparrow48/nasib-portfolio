@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className="flex justify-between px-4 pt-8 pb-0 mx-auto text-lg font-bold text-gray-800 uppercase max-w-7xl ">
+    <div className="justify-between hidden px-4 pt-8 pb-0 mx-auto text-lg font-bold text-gray-800 uppercase md:flex md:max-w-5xl lg:max-w-6xl ">
       <div>
         <NavLink className="navbar-item" activeClassName="is-active" to="/">
           Nasib
