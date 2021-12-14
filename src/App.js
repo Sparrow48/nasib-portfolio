@@ -6,7 +6,9 @@ function App() {
     <div className="font-inter">
       <Router>
         <Layout>
-          <h1>Hello</h1>
+          <div className="h-screen bg-gray-50 "> hello</div>
+          <div className="h-screen bg-gray-50 "> hello</div>
+          <div className="h-screen bg-gray-50 "> hello</div>
         </Layout>
       </Router>
     </div>
