@@ -10,8 +10,6 @@ function App() {
         <Layout>
           <Header />
           <Works />
-          <div className="h-screen bg-gray-50 "> hello</div>
-          <div className="h-screen bg-gray-50 "> hello</div>
         </Layout>
       </Router>
     </div>

@@ -32,12 +32,14 @@ function Header() {
             </p>
             <div className="flex space-x-4 text-xl">
               <a
+                rel="noreferrer"
                 href="#"
                 className="px-3 py-2 text-blue-800 border-2 border-indigo-600 rounded-xl hover:bg-indigo-300 hover:border-opacity-0"
               >
                 Contact me
               </a>
               <a
+                rel="noreferrer"
                 href="#"
                 className="px-3 py-2 text-blue-800 border-2 border-indigo-600 rounded-xl hover:bg-indigo-300 hover:border-opacity-0"
               >
