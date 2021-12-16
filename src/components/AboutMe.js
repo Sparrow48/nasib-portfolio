@@ -13,7 +13,7 @@ function AboutMe() {
             alt="Profile_Logo"
           />
         </div>
-        <div className="text-xl italic font-bold tracking-wide md:max-w-xl">
+        <div className="text-lg italic font-bold tracking-wide md:max-w-3xl">
           <p>
             Hello, I'm Md. Abu Nasib. I have completed my graduation from North
             South University in 2020. I have experience working as part of a
@@ -46,7 +46,7 @@ function AboutMe() {
           <h1 className="py-8 text-2xl font-bold text-blue-400">
             Services I'm willing to provide.
           </h1>
-          <div className="flex flex-col items-center space-x-8 md:flex-row">
+          <div className="flex flex-col items-center space-y-10 md:space-x-8 md:flex-row">
             <div className="flex flex-col items-center px-5 py-5 space-y-3 bg-white shadow-xl ">
               <Icon
                 icon="ic:twotone-design-services"
@@ -55,7 +55,7 @@ function AboutMe() {
                 height="72"
               />
               <h1 className="text-2xl font-medium text-blue-400">Web Design</h1>
-              <p className="text-xl text-justify ">
+              <p className="text-xl text-center md:text-justify ">
                 I value simple content structure and clean design patterns.
               </p>
             </div>
@@ -69,7 +69,7 @@ function AboutMe() {
               <h1 className="text-2xl font-medium text-blue-400">
                 Web Development
               </h1>
-              <p className="text-xl text-justify ">
+              <p className="text-xl text-center md:text-justify ">
                 I am a Front-End web developer who focuses on user needs. I am
                 always focus on quality and professionalism.
               </p>
@@ -84,7 +84,7 @@ function AboutMe() {
               <h1 className="text-2xl font-medium text-blue-400">
                 React Conversion
               </h1>
-              <p className="text-xl text-justify ">
+              <p className="text-xl text-center md:text-justify ">
                 If you want to convert your website into a React App. I can help
                 you with that.
               </p>
