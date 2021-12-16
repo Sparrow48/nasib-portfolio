@@ -7,9 +7,9 @@ import portfolio from "../assets/portfolio.png";
 
 function Works() {
   return (
-    <div className="border-b-2 ">
-      <div className="flex flex-wrap justify-center py-24 mx-auto md:py-48 md:max-w-6xl">
-        <div className="flex flex-col space-y-2 pb-28 md:max-w-xl">
+    <section id="portfolio" className="border-b-2 ">
+      <div className="flex flex-wrap justify-center py-20 mx-auto md:py-48 md:max-w-6xl">
+        <div className="flex flex-col pb-24 space-y-2 md:pb-28 md:max-w-xl">
           <Work
             image={mNotes}
             title="mNotes"
@@ -26,7 +26,7 @@ function Works() {
           </div>
         </div>
 
-        <div className="flex flex-col space-y-2 pb-28 md:max-w-xl">
+        <div className="flex flex-col pb-24 space-y-2 md:pb-28 md:max-w-xl">
           <Work
             image={imageGallery}
             title="Image Gallery"
@@ -42,7 +42,7 @@ function Works() {
             </ul>
           </div>
         </div>
-        <div className="flex flex-col space-y-2 pb-28 md:max-w-xl">
+        <div className="flex flex-col pb-24 space-y-2 md:pb-28 md:max-w-xl">
           <Work
             image={burger}
             title="Burger Builder"
@@ -58,7 +58,7 @@ function Works() {
             </ul>
           </div>
         </div>
-        <div className="flex flex-col space-y-2 pb-28 md:max-w-xl">
+        <div className="flex flex-col pb-24 space-y-2 md:pb-28 md:max-w-xl">
           <Work
             image={portfolio}
             title="Portfolio"
@@ -75,7 +75,7 @@ function Works() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

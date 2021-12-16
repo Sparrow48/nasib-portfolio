@@ -4,9 +4,9 @@ import { Icon } from "@iconify/react";
 function Work(props) {
   return (
     <div className="flex flex-col px-6 space-y-4 ">
-      <div className="rounded h-80">
+      <div className="rounded shadow-2xl h-80">
         <img
-          className="object-cover transition duration-500 ease-in-out transform rounded h-72 hover:scale-105"
+          className="object-cover transition duration-500 ease-in-out transform rounded h-80 hover:scale-105 "
           src={props.image}
           alt=""
         />

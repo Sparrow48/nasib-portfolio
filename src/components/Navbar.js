@@ -1,25 +1,24 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
     <nav className="fixed z-50 w-full bg-white border-b">
       <div className="justify-between hidden px-4 pt-8 pb-2 mx-auto text-lg font-bold text-gray-800 uppercase md:flex md:max-w-5xl lg:max-w-6xl ">
         <div>
-          <NavLink className="navbar-item" activeClassName="is-active" to="/">
+          <a href="/" className="navbar-item">
             Nasib
-          </NavLink>
+          </a>
         </div>
         <div className="flex justify-center gap-5">
-          <NavLink className="navbar-item" activeClassName="is-active" to="/">
+          <a href="#about" className="navbar-item">
             about
-          </NavLink>
-          <NavLink className="navbar-item" activeClassName="is-active" to="/">
+          </a>
+          <a href="#portfolio" className="navbar-item">
             portfolio
-          </NavLink>
-          <NavLink className="navbar-item" activeClassName="is-active" to="/">
+          </a>
+          <a href="contact" className="navbar-item">
             contact
-          </NavLink>
+          </a>
         </div>
       </div>
     </nav>

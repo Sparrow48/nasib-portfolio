@@ -4,9 +4,9 @@ import imageN from "../assets/nasib.png";
 
 function Header() {
   return (
-    <div className="border-b ">
-      <div className="flex flex-col items-center px-6 py-24 mx-auto md:py-48 md:flex-row md:max-w-6xl">
-        <div className="flex items-center justify-center w-full md:w-1/3">
+    <div className="border-b md:h-screen">
+      <div className="flex flex-col items-center px-6 py-24 mx-auto md:py-72 md:flex-row md:max-w-6xl ">
+        <div className="flex items-center justify-center w-full md:w-1/3 ">
           <img
             className="w-40 transition duration-500 ease-in-out transform sm:w-44 md:w-48 lg:w-64 hover:scale-110"
             src={imageN}
