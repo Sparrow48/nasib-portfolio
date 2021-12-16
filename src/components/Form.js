@@ -1,15 +1,37 @@
 import React from "react";
+import emailjs from "emailjs-com";
 
 function Form() {
+  function sendEmail(e) {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        `${process.env.REACT_APP_Service_Id}`,
+        `${process.env.REACT_APP_Template_Id}`,
+        e.target,
+        `${process.env.REACT_APP_User_Id}`
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    e.target.reset();
+  }
   return (
     <div>
-      <form>
+      <form onSubmit={sendEmail}>
         <div className="flex flex-col md:flex-row">
           <div className="w-full mb-6 md:mb-6 md:w-1/2 md:mr-6">
             <label className="text-xl font-bold uppercase" htmlFor="name">
               Name
               <input
                 type="text"
+                name="from_name"
                 placeholder="Type your name"
                 className="w-full px-3 py-3 mt-2 text-lg text-gray-800 bg-gray-100 border border-gray-200 rounded focus:border focus:border-gray-500 focus:outline-none "
                 required
@@ -21,9 +43,9 @@ function Form() {
               Email
               <input
                 type="email"
+                name="email"
                 placeholder="Type your email"
                 className="w-full px-3 py-3 mt-2 text-lg text-gray-800 bg-gray-100 border border-gray-200 rounded focus:border focus:border-gray-500 focus:outline-none "
-                required
                 required
               />
             </label>
@@ -34,6 +56,7 @@ function Form() {
             Subject
             <input
               type="text"
+              name="subject"
               placeholder="Mail Subject"
               className="w-full px-3 py-3 mt-2 text-lg text-gray-800 bg-gray-100 border border-gray-200 rounded focus:border focus:border-gray-500 focus:outline-none "
               required
