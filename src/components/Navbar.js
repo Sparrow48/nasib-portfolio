@@ -16,7 +16,7 @@ function Navbar() {
           <a href="#portfolio" className="navbar-item">
             portfolio
           </a>
-          <a href="contact" className="navbar-item">
+          <a href="#contact" className="navbar-item">
             contact
           </a>
         </div>

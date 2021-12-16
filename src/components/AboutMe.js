@@ -46,7 +46,7 @@ function AboutMe() {
           <h1 className="py-8 text-2xl font-bold text-blue-400">
             Services I'm willing to provide.
           </h1>
-          <div className="flex flex-col items-center space-y-10 md:space-x-8 md:flex-row">
+          <div className="flex flex-col items-center space-y-16 md:space-y-0 md:space-x-8 md:flex-row">
             <div className="flex flex-col items-center px-5 py-5 space-y-3 bg-white shadow-xl ">
               <Icon
                 icon="ic:twotone-design-services"
