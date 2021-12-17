@@ -8,7 +8,7 @@ import portfolio from "../assets/portfolio.png";
 function Works() {
   return (
     <section id="portfolio" className="border-b-2 ">
-      <div className="flex flex-wrap justify-center py-20 mx-auto md:py-48 md:max-w-6xl">
+      <div className="flex flex-wrap justify-center pt-20 mx-auto md:pt-48 md:pb-20 md:max-w-6xl">
         <div className="flex flex-col pb-24 space-y-2 md:pb-28 md:max-w-xl">
           <Work
             image={mNotes}
