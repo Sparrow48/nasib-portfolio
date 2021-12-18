@@ -8,8 +8,8 @@ import portfolio from "../assets/portfolio.png";
 function Works() {
   return (
     <section id="portfolio" className="border-b-2 ">
-      <div className="flex flex-wrap justify-center pt-20 mx-auto md:pt-48 md:pb-20 md:max-w-6xl">
-        <div className="flex flex-col pb-24 space-y-2 md:pb-28 md:max-w-xl">
+      <div className="flex flex-wrap justify-center py-16 mx-auto md:py-36 md:max-w-6xl">
+        <div className="flex flex-col pb-20 my-5 space-y-2 rounded md:py-10 md:my-12 md:max-w-xl hover:shadow-2xl">
           <Work
             image={mNotes}
             title="mNotes"
@@ -26,7 +26,7 @@ function Works() {
           </div>
         </div>
 
-        <div className="flex flex-col pb-24 space-y-2 md:pb-28 md:max-w-xl">
+        <div className="flex flex-col pb-20 my-5 space-y-2 rounded md:py-10 md:my-12 md:max-w-xl hover:shadow-2xl">
           <Work
             image={imageGallery}
             title="Image Gallery"
@@ -42,7 +42,7 @@ function Works() {
             </ul>
           </div>
         </div>
-        <div className="flex flex-col pb-24 space-y-2 md:pb-28 md:max-w-xl">
+        <div className="flex flex-col pb-20 my-5 space-y-2 rounded md:py-10 md:my-12 md:max-w-xl hover:shadow-2xl">
           <Work
             image={burger}
             title="Burger Builder"
@@ -58,7 +58,7 @@ function Works() {
             </ul>
           </div>
         </div>
-        <div className="flex flex-col pb-24 space-y-2 md:pb-28 md:max-w-xl">
+        <div className="flex flex-col pb-20 my-5 space-y-2 rounded md:py-10 md:my-12 md:max-w-xl hover:shadow-2xl hover:rounded">
           <Work
             image={portfolio}
             title="Portfolio"

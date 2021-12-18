@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 function Work(props) {
   return (
     <div className="flex flex-col px-6 space-y-4 ">
-      <div className="rounded shadow-2xl h-80">
+      <div className="rounded h-80">
         <img
           className="object-cover transition duration-500 ease-in-out transform rounded h-80 hover:scale-105 "
           src={props.image}
@@ -12,7 +12,14 @@ function Work(props) {
         />
       </div>
       <div className="flex space-x-5 ">
-        <h1 className="text-3xl font-bold text-blue-700 ">{props.title}</h1>
+        <a
+          className="text-3xl font-bold text-blue-700 "
+          href={props.live}
+          target="_blank"
+          rel="noreferrer"
+        >
+          {props.title}
+        </a>
         <a href={props.live} target="_blank" rel="noreferrer">
           <Icon
             icon="fluent:live-24-regular"
