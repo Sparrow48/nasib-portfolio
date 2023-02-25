@@ -38,6 +38,16 @@ const Experience = () => {
                                 </ul>
                             </div>
 
+                            <div>
+                                <ul className="flex flex-wrap text-lg md:max-w-sm">
+                                    <li className="flex px-2 m-1 bg-gray-200 rounded-lg">JavaScript</li>
+                                    <li className="flex px-2 m-1 bg-gray-200 rounded-lg">REACT</li>
+                                    <li className="flex px-2 m-1 bg-gray-200 rounded-lg">REDUX</li>
+                                    <li className="flex px-2 m-1 bg-gray-200 rounded-lg">AntD</li>
+                                    <li className="flex px-2 m-1 bg-gray-200 rounded-lg">Git</li>
+                                </ul>
+                            </div>
+
                         </div>
                     </div>
                 </div>
