@@ -13,6 +13,9 @@ function Navbar() {
           <a href="#about" className="navbar-item">
             about
           </a>
+          <a href="#experience" className="navbar-item">
+            experience
+          </a>
           <a href="#portfolio" className="navbar-item">
             portfolio
           </a>

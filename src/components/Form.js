@@ -1,5 +1,7 @@
 import React from "react";
 import emailjs from "emailjs-com";
+import toastr from "toastr";
+
 
 function Form() {
   function sendEmail(e) {
@@ -13,10 +15,10 @@ function Form() {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          toastr.success("Message sent!")
         },
         (error) => {
-          console.log(error.text);
+          console.log('MESSAGES SENDING ERROR =>', error.text);
         }
       );
 
